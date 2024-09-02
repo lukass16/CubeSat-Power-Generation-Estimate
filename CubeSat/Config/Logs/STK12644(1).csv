@@ -1,0 +1,8 @@
+"Type","TypeDesc","ErrorCode","Filename","LineNumber","DateTime","ComputerName","UserName","Message"
+1,"MsgWnd",0,"",0,10/17/2023 21:26:24,"DESKTOP-7EKA85J","lukas","STK EOIR is licensed, but a valid install was not found.  Install EOIR."
+3,"Default",0,"AgStkInitObj.cpp",1836,10/17/2023 21:26:24,"DESKTOP-7EKA85J","lukas","STK Space Environment and Effects Tool is licensed, but a valid install was not found.  Install or Update STK SEET to match the STK version 12.7.1."
+2,"Default",0,"AgApRmtMsg.cpp",1362,10/17/2023 21:26:25,"DESKTOP-7EKA85J","lukas","STK/CON: Initializing STK/CON module."
+2,"Default",0,"AgApRmtMsg.cpp",1542,10/17/2023 21:26:25,"DESKTOP-7EKA85J","lukas","STK/CON: Accepting connection requests"
+3,"Default",0,"AgSTKCommRdrComponentManipulator.cpp",888,10/17/2023 21:26:32,"DESKTOP-7EKA85J","lukas","STK TIREM license present; but a valid TIREM install was not found. Install STK/TIREM."
+3,"Default",0,"AgSTKCommRdrComponentManipulator.cpp",981,10/17/2023 21:26:32,"DESKTOP-7EKA85J","lukas","STK Communications License for Urban Propagation Extension present; but a valid install was not found.  Install Urban Propagation Extension."
+4,"Default",0,"AgGxGltfMetadataLoader.cpp",888,10/17/2023 21:26:52,"DESKTOP-7EKA85J","lukas","Error reading gmdf (glTF metadata) file: C:/Users/lukas/Documents/Personal/Projects/CubeSat/Blender Model/Model5 glTF/model5.gmdf - The model file does not contain a node named: PanelBacks."

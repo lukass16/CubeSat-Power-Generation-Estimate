@@ -1,0 +1,491 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v3.6.27",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0, 1, 2, 3, 4]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "CubeSat",
+      "rotation": [1, 0, 0, 7.549790126404332e-8],
+      "translation": [0, 0.11000001430511475, -0.0004000063054263592],
+      "extensions": {
+        "AGI_articulations": {
+          "isAttachPoint": true
+        }
+      }
+    },
+    {
+      "mesh": 1,
+      "name": "Panel+X",
+      "rotation": [0, 0, 0.7071068286895752, 0.7071068286895752],
+      "translation": [
+        0.051100000739097595, 0.010000010952353477, -0.00039999757427722216
+      ],
+      "extensions": {
+        "AGI_stk_metadata": {
+          "solarPanelGroupName": "Panel+X"
+        }
+      }
+    },
+    {
+      "mesh": 2,
+      "name": "Panel-Y",
+      "rotation": [0.5, 0.5000000596046448, 0.5, 0.5],
+      "translation": [0, 0.010000007227063179, -0.051500000059604645],
+      "extensions": {
+        "AGI_stk_metadata": {
+          "solarPanelGroupName": "Panel-Y"
+        }
+      }
+    },
+    {
+      "mesh": 3,
+      "name": "Panel+Y",
+      "rotation": [0.5, 0.5000000596046448, 0.5, 0.4999999403953552],
+      "translation": [0, 0.010000014677643776, 0.04969999939203262],
+      "extensions": {
+        "AGI_stk_metadata": {
+          "solarPanelGroupName": "Panel+Y"
+        }
+      }
+    },
+    {
+      "mesh": 4,
+      "name": "Panel-X",
+      "rotation": [0, 0, 0.7071068286895752, 0.7071068286895752],
+      "translation": [
+        -0.05009999871253967, 0.010000010952353477, -0.00039999757427722216
+      ],
+      "extensions": {
+        "AGI_stk_metadata": {
+          "solarPanelGroupName": "Panel-X"
+        }
+      }
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6146152019500732, 0.23410804569721222, 0.026046667248010635, 1
+        ],
+        "metallicFactor": 0.10000000149011612,
+        "roughnessFactor": 0.75
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "PanelMat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0, 0.01381723117083311, 0.8000000715255737, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "PanelMat.004",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0, 0.01381723117083311, 0.8000000715255737, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "PanelMat.005",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0, 0.01381723117083311, 0.8000000715255737, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "PanelMat.007",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0, 0.01381723117083311, 0.8000000715255737, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.5
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cube.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Circle",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Circle.004",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 7,
+          "material": 2
+        }
+      ]
+    },
+    {
+      "name": "Circle.005",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 11,
+            "NORMAL": 12,
+            "TEXCOORD_0": 13
+          },
+          "indices": 14,
+          "material": 3
+        }
+      ]
+    },
+    {
+      "name": "Circle.007",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 15,
+            "NORMAL": 16,
+            "TEXCOORD_0": 17
+          },
+          "indices": 18,
+          "material": 4
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [0.05000000074505806, 0.21400000154972076, 0.05000000074505806],
+      "min": [-0.05000000074505806, 0, -0.05000000074505806],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 24,
+      "max": [0.06650999933481216, 0.0010000037727877498, 0.03455499932169914],
+      "min": [
+        -0.09703000634908676, 0.0009999963222071528, -0.03455499932169914
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 48,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 24,
+      "max": [0.06650999933481216, 0.0010000037727877498, 0.03455499932169914],
+      "min": [
+        -0.09703000634908676, 0.0009999963222071528, -0.03455499932169914
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5126,
+      "count": 18,
+      "max": [0.02522999793291092, 3.725290298461914e-9, 0.03455499932169914],
+      "min": [
+        -0.09703000634908676, -3.725290298461914e-9, -0.03455499932169914
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 18,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5123,
+      "count": 36,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5126,
+      "count": 24,
+      "max": [0.06650999933481216, 3.725290298461914e-9, 0.03455499932169914],
+      "min": [
+        -0.09703000634908676, -3.725290298461914e-9, -0.03455499932169914
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 16,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 17,
+      "componentType": 5126,
+      "count": 24,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 18,
+      "componentType": 5123,
+      "count": 48,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 288,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 576,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 768,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 840,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 1128,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 1416,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 1608,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 1704,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 1992,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 2280,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 216,
+      "byteOffset": 2472,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 216,
+      "byteOffset": 2688,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 2904,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 72,
+      "byteOffset": 3048,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 3120,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 288,
+      "byteOffset": 3408,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 192,
+      "byteOffset": 3696,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 96,
+      "byteOffset": 3888,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "model5_data.bin",
+      "byteLength": 3984
+    }
+  ],
+  "extensions": {
+    "AGI_articulations": {
+      "articulations": [
+        {
+          "name": "Panels",
+          "stages": [
+            {
+              "name": "Rotate",
+              "type": "xRotate",
+              "initialValue": 0,
+              "minimumValue": -360,
+              "maximumValue": 360
+            }
+          ],
+          "pointingVector": [0, 0, 0]
+        }
+      ]
+    },
+    "AGI_stk_metadata": {
+      "solarPanelGroups": [
+        {
+          "name": "Panel+X",
+          "efficiency": 30.7
+        },
+        {
+          "name": "Panel-X",
+          "efficiency": 30.7
+        },
+        {
+          "name": "Panel+Y",
+          "efficiency": 30.7
+        },
+        {
+          "name": "Panel-Y",
+          "efficiency": 30.7
+        }
+      ]
+    }
+  },
+  "extensionsUsed": ["AGI_articulations", "AGI_stk_metadata"]
+}
